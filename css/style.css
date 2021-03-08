@@ -1,0 +1,70 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Century Gothic;
+}
+
+/*Formatação da NAV*/
+nav{
+    background: #435D7D;
+    height: 80px;
+    width: 100%;
+}
+
+nav ul{ /*Levar os links para esquerda*/
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li{ /*Deixar os links alinhados*/
+    display: inline-block;
+    line-height: 50px;
+}
+
+nav ul li a{ /*Formatação do link*/
+    color: white;
+    font-size: 30px;
+    padding: 0px 20px;
+    text-decoration: none;
+}
+
+a:hover{ /*Efeito Hover*/
+    background: #4CA649;
+    transition: .5s;
+    border-radius: 5px;
+}
+
+/*Formatação da sessão do registro*/
+
+fieldset{/*Centralizar o fieldset*/
+    border: 0;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: calc(50% - 100px);
+    left: calc(40% - 100px);
+}
+
+input{ /*Formatação dos campos*/
+    padding: 10px;
+    width: 500px;
+    margin: 10px; /*Espaços entre os campos*/
+}
+
+label{
+    margin: 10px; /*Alinhar o label*/
+}
+
+button{
+    margin-left: 35%;
+    padding: 10px;
+    color: black;
+    background-color:white ;
+    border: 2px solid #4CAF50;
+}
+
+button:hover{
+    background-color: #4CAF50;
+    color: white;
+    transition: .5s;
+}
